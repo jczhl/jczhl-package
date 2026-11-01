@@ -1,0 +1,9 @@
+--- a/trunk/user/dropbear/Makefile
++++ b/trunk/user/dropbear/Makefile
+@@ -40,6 +40,7 @@
+ 		--disable-pututxline \
+ 		--enable-zlib \
++		--disable-harden \
+ 		--enable-bundled-libtom \
+ 		--host=$(HOST_TARGET) \
+ 		--build=$(HOST_BUILD) ; \
